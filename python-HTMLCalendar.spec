@@ -14,13 +14,13 @@ Source0:	http://freespace.virgin.net/hamish.sanderson/%{module}-%{version}.tar.g
 URL:		http://freespace.virgin.net/hamish.sanderson/htmlcalendar.html
 BuildRequires:	python-devel >= 2.3
 Requires:	python >= 2.3
+Requires:	python-HTMLTemplate >= 1.0.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 HTMLCalendar generates one- and twelve-month calendars in HTML format
 with optional links.
-
 
 %description -l pl
 HTMLCalendar generuje miesiêczne i roczne kalendarze w formacie HTML,
