@@ -5,12 +5,12 @@
 Summary:	Python module for generating HTML calendars
 Summary(pl):	Modu³ Pythona umo¿liwiaj±cy generowanie kalendarzy HTML
 Name:		python-%{module}
-Version:	0.1.0
+Version:	1.0.0
 Release:	1
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://freespace.virgin.net/hamish.sanderson/%{module}-%{version}.tar.gz
-# Source0-md5:	21b603a946aa76a95686e009934a545e
+# Source0-md5:	842d130402c1db8f97a812c243e9007c
 URL:		http://freespace.virgin.net/hamish.sanderson/htmlcalendar.html
 BuildRequires:	python-devel >= 2.3
 Requires:	python >= 2.3
@@ -48,5 +48,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.txt
+%doc README.txt Manual.txt
 %{py_sitescriptdir}/HTMLCalendar.py[oc]
