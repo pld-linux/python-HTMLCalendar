@@ -1,6 +1,6 @@
 
 %include	/usr/lib/rpm/macros.python
-%define 	module HTMLCalendar
+%define 	module	HTMLCalendar
 
 Summary:	Python module for generating HTML calendars
 Summary(pl):	Modu³ Pythona umo¿liwiaj±cy generowanie kalendarzy HTML
