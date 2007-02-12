@@ -2,7 +2,7 @@
 %define 	module	HTMLCalendar
 
 Summary:	Python module for generating HTML calendars
-Summary(pl):	Modu³ Pythona umo¿liwiaj±cy generowanie kalendarzy HTML
+Summary(pl.UTF-8):   ModuÅ‚ Pythona umoÅ¼liwiajÄ…cy generowanie kalendarzy HTML
 Name:		python-%{module}
 Version:	1.0.0
 Release:	1
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 HTMLCalendar generates one- and twelve-month calendars in HTML format
 with optional links.
 
-%description -l pl
-HTMLCalendar generuje miesiêczne i roczne kalendarze w formacie HTML,
+%description -l pl.UTF-8
+HTMLCalendar generuje miesiÄ™czne i roczne kalendarze w formacie HTML,
 wraz z opcjonalnymi, konfigurowalnymi linkami.
 
 %prep
