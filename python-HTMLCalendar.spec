@@ -2,7 +2,7 @@
 %define 	module	HTMLCalendar
 
 Summary:	Python module for generating HTML calendars
-Summary(pl.UTF-8):   Moduł Pythona umożliwiający generowanie kalendarzy HTML
+Summary(pl.UTF-8):	Moduł Pythona umożliwiający generowanie kalendarzy HTML
 Name:		python-%{module}
 Version:	1.0.0
 Release:	1
