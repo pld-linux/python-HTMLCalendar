@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://freespace.virgin.net/hamish.sanderson/%{module}-%{version}.tar.gz
 # Source0-md5:	842d130402c1db8f97a812c243e9007c
 URL:		http://freespace.virgin.net/hamish.sanderson/htmlcalendar.html
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
